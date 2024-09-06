@@ -1,0 +1,102 @@
+[
+  {
+    "id": 1,
+    "origen": "Caracas",
+    "destino": "Valencia",
+    "precio": 10,
+    "hora_salida": "2024-09-03T08:00:00",
+    "hora_llegada": "2024-09-03T10:30:00",
+    "capacidad": 50,
+    "estado": "disponible"
+  },
+  {
+    "id": 2,
+    "origen": "Maracay",
+    "destino": "Maracaibo",
+    "precio": 30,
+    "hora_salida": "2024-09-03T09:00:00",
+    "hora_llegada": "2024-09-03T16:00:00",
+    "capacidad": 45,
+    "estado": "disponible"
+  },
+  {
+    "id": 3,
+    "origen": "Barcelona",
+    "destino": "Puerto La Cruz",
+    "precio": 5,
+    "hora_salida": "2024-09-03T07:00:00",
+    "hora_llegada": "2024-09-03T07:30:00",
+    "capacidad": 30,
+    "estado": "disponible"
+  },
+  {
+    "id": 4,
+    "origen": "Caracas",
+    "destino": "Barquisimeto",
+    "precio": 15,
+    "hora_salida": "2024-09-03T06:00:00",
+    "hora_llegada": "2024-09-03T11:00:00",
+    "capacidad": 60,
+    "estado": "disponible"
+  },
+  {
+    "id": 5,
+    "origen": "Mérida",
+    "destino": "San Cristóbal",
+    "precio": 12,
+    "hora_salida": "2024-09-03T05:30:00",
+    "hora_llegada": "2024-09-03T09:30:00",
+    "capacidad": 55,
+    "estado": "disponible"
+  },
+  {
+    "id": 6,
+    "origen": "Valencia",
+    "destino": "Coro",
+    "precio": 20,
+    "hora_salida": "2024-09-03T10:00:00",
+    "hora_llegada": "2024-09-03T13:00:00",
+    "capacidad": 40,
+    "estado": "disponible"
+  },
+  {
+    "id": 7,
+    "origen": "Maracaibo",
+    "destino": "Caracas",
+    "precio": 25,
+    "hora_salida": "2024-09-03T11:00:00",
+    "hora_llegada": "2024-09-03T17:00:00",
+    "capacidad": 35,
+    "estado": "disponible"
+  },
+  {
+    "id": 8,
+    "origen": "Valencia",
+    "destino": "Caracas",
+    "precio": 15,
+    "hora_salida": "2024-09-02T09:00:00",
+    "hora_llegada": "2024-09-02T11:00:00",
+    "capacidad": 60,
+    "estado": "expirado"
+  },
+  {
+    "id": 9,
+    "origen": "San Cristóbal",
+    "destino": "Mérida",
+    "precio": 18,
+    "hora_salida": "2024-09-02T11:00:00",
+    "hora_llegada": "2024-09-02T16:00:00",
+    "capacidad": 50,
+    "estado": "expirado"
+  },
+  {
+    "id": 10,
+    "origen": "Puerto La Cruz",
+    "destino": "Barcelona",
+    "precio": 8,
+    "hora_salida": "2024-09-02T14:00:00",
+    "hora_llegada": "2024-09-02T16:30:00",
+    "capacidad": 40,
+    "estado": "expirado"
+  }
+]
