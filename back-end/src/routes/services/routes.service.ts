@@ -20,7 +20,6 @@ export class RoutesService {
           try {
             scheduledRoutes = JSON.parse(data);
           } catch (parseError) {
-            console.error('Error al parsear JSON:', parseError);
             throw new Error('Error en el formato del archivo JSON');
           }
         }
@@ -36,12 +35,10 @@ export class RoutesService {
         JSON.stringify(scheduledRoutes, null, 2),
         'utf8',
       );
-      console.log('Nueva ruta programada:', createRouteDto);
 
-      return 'New route has been scheduled successfully';
+      return 'Nueva ruta programada con éxito';
     } catch (error) {
-      console.error('Error scheduling the route:', error);
-      throw new Error('Error scheduling the route: ' + error.message);
+      throw new Error('Error al agendar la ruta: ' + error.message);
     }
   }
 
